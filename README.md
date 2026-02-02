@@ -3,9 +3,7 @@
 A modern, responsive portfolio website featuring an immersive day/night theme toggle with stunning visual effects and smooth animations.
 
 [![Live Demo](https://img.shields.io/badge/Status-Live-green)](https://vidhyanshu.vercel.app/)
-[![HTML](https://img.shields.io/badge/HTML-26.7%25-orange)](https://github.com/Viidhyanshu/Vidhyanshu_Portfolio.git)
-[![JavaScript](https://img.shields.io/badge/JavaScript-11.5%25-yellow)](https://github.com/Viidhyanshu/Vidhyanshu_Portfolio.git)
-[![CSS](https://img.shields.io/badge/CSS-61.8%25-blue)](hhttps://github.com/Viidhyanshu/Vidhyanshu_Portfolio.git)
+
 
 
 ## ✨ Features
@@ -46,33 +44,7 @@ A modern, responsive portfolio website featuring an immersive day/night theme to
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Basic text editor (VS Code, Sublime Text, etc.)
 
-### Installation
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/viidhyanshu/portfolio.git
-cd portfolio
-```
-
-2. **Project Structure**
-```
-portfolio/
-├── index.html          # Main HTML file
-├── style.css           # Stylesheet with all visual effects
-├── script.js           # JavaScript for interactivity
-└── README.md           # Documentation
-```
-
-3. **Run the website**
-- Simply open `index.html` in your web browser
-- Or use a local server:
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx serve
-```
 
 ## 📋 Sections
 
@@ -93,15 +65,6 @@ npx serve
 - **CSS3**: Custom properties, Grid, Flexbox, animations, and transitions
 - **Vanilla JavaScript**: DOM manipulation, event handling, Intersection Observer API
 
-
-## 🔺 Accessibility Features
-
-- Semantic HTML structure
-- ARIA labels for interactive elements
-- Keyboard navigation support
-- Focus indicators for all interactive elements
-- Reduced motion support for users with vestibular disorders
-- High contrast ratios for text readability
 
 ## 🎯 Performance Optimizations
 
