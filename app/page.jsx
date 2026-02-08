@@ -8,7 +8,6 @@ import "./globals.css"
 export default function Home() {
     useEffect(() => {
 
-
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault()
@@ -21,7 +20,6 @@ export default function Home() {
         }
       })
     })
-
 
     const sections = document.querySelectorAll('section[id]')
     const navLinks = document.querySelectorAll('.nav-link')
@@ -152,7 +150,6 @@ export default function Home() {
         hero.style.opacity = '1'
       }, 100)
     }
-
 
     const themeToggle = document.getElementById('theme-toggle')
 
