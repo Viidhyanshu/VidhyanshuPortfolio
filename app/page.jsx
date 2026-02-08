@@ -178,7 +178,6 @@ export default function Home() {
       })
     }
 
-
     const updateSunMoonPositions = () => {
 
       const sun = document.querySelector('.sun')
@@ -236,7 +235,6 @@ export default function Home() {
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
   />
-  {/* Header */}
   <header className="header">
     <div className="container">
       <div className="logo">
