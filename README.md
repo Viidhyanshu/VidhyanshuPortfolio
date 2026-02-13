@@ -14,65 +14,11 @@ A modern, responsive portfolio website featuring an immersive day/night theme to
 - Smooth theme transitions with localStorage persistence
 - Interactive celestial bodies with hover effects and radiating light rays
 
-### 📱 Responsive Design
-- Fully responsive layout optimized for all devices
-- Mobile-first approach with breakpoints for tablets, laptops, and desktops
-- Collapsible mobile navigation menu
-- Touch-optimized interactions for mobile devices
-- Adaptive typography and spacing
-
-### 🎨 Modern UI/UX
-- Clean, minimalist design with smooth animations
-- Scroll-based navigation highlighting
-- Intersection Observer for element animations
-- Smooth scrolling between sections
-- Glassmorphism effects on header
-- Interactive project and skill cards
-
-### 🎭 Visual Effects
-- Animated star field with twinkling effects
-- Constellation mapping (Big Dipper/Ursa Major and Orion)
-- Milky Way galaxy gradient overlay
-- Animated clouds with parallax motion
-- Mountain silhouettes creating depth
-- Person silhouette in foreground
-- Dynamic sun/moon rays on hover
-
 ## 🚀 Quick Start
 
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Basic text editor (VS Code, Sublime Text, etc.)
-
-
-
-## 📋 Sections
-
-### 🏠 Home/Hero
-- Eye-catching hero section with animated background
-- Call-to-action buttons
-- Professional tagline and university affiliation
-
-
-### 📧 Contact
-- Email integration
-- Social media links (GitHub, LinkedIn, LeetCode)
-
-
-## 🌟 Key Technologies
-
-- **HTML5**: Semantic markup and accessibility features
-- **CSS3**: Custom properties, Grid, Flexbox, animations, and transitions
-- **Vanilla JavaScript**: DOM manipulation, event handling, Intersection Observer API
-
-
-## 🎯 Performance Optimizations
-
-- Minimal external dependencies (only Font Awesome CDN)
-- Optimized CSS animations using `transform` and `opacity`
-- Efficient JavaScript with event delegation
-- Lazy loading considerations for images
-- Vercel Speed Insights integration
 
 ## 📄 License
 
