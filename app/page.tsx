@@ -780,7 +780,7 @@ export default function Home() {
   <footer className="footer">
     <div className="container">
       <p>© 2025 Vidhyanshu Kumar. All rights reserved.</p>
-      <p>Manipal University Jaipur</p>
+      
     </div>
   </footer>
 </>
