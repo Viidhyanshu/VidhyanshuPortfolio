@@ -295,7 +295,7 @@ export default function Home() {
             <i className="fab fa-linkedin" />
           </a>
           <a
-            href="https://leetcode.com/viidhyashu"
+            href="https://leetcode.com/viidhyanshu"
             target="_blank"
             className="social-icon"
             title="LeetCode"
@@ -764,7 +764,7 @@ export default function Home() {
             <p>Vidhyanshu Kumar</p>
           </a>
           <a
-            href="https://leetcode.com/viidhyashu"
+            href="https://leetcode.com/viidhyanshu"
             target="_blank"
             className="contact-card"
           >
