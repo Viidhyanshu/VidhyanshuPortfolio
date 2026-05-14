@@ -33,24 +33,6 @@ const Navbar: React.FC = () => {
           <span />
         </button>
         <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
-          <div className="nav-links">
-            <a href="#home" className="nav-link" onClick={closeMenu}>
-              HOME
-            </a>
-            <a href="#about" className="nav-link" onClick={closeMenu}>
-              ABOUT
-            </a>
-            <a href="#projects" className="nav-link" onClick={closeMenu}>
-              PROJECTS
-            </a>
-            <a href="#skills" className="nav-link" onClick={closeMenu}>
-              SKILLS
-            </a>
-            <a href="#contact" className="nav-link" onClick={closeMenu}>
-              CONTACT
-            </a>
-          </div>
-          
           <div className="nav-extras">
             <div className="theme-toggle">
               <input type="checkbox" id="theme-toggle" className="theme-checkbox" />
@@ -96,6 +78,24 @@ const Navbar: React.FC = () => {
                 <i className="fas fa-envelope" />
               </a>
             </div>
+          </div>
+
+          <div className="nav-links">
+            <a href="#home" className="nav-link" onClick={closeMenu}>
+              HOME
+            </a>
+            <a href="#about" className="nav-link" onClick={closeMenu}>
+              ABOUT
+            </a>
+            <a href="#projects" className="nav-link" onClick={closeMenu}>
+              PROJECTS
+            </a>
+            <a href="#skills" className="nav-link" onClick={closeMenu}>
+              SKILLS
+            </a>
+            <a href="#contact" className="nav-link" onClick={closeMenu}>
+              CONTACT
+            </a>
           </div>
         </nav>
       </div>
