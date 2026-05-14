@@ -81,6 +81,10 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+    background: #ffffff;
+    padding: 4px 12px;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
 
 .logo-icon {
@@ -104,13 +108,13 @@ body {
 .logo-main {
     font-size: 20px;
     font-weight: bold;
-    color: var(--white);
+    color: #000000;
     letter-spacing: 2px;
 }
 
 .logo-sub {
     font-size: 14px;
-    color: var(--white);
+    color: #000000;
     letter-spacing: 1px;
 }
 
@@ -823,6 +827,12 @@ body.day-mode .nav-link:hover {
 body.day-mode .logo-main,
 body.day-mode .logo-sub {
     color: var(--day-text);
+}
+
+body.day-mode .logo {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
 }
 
 body.day-mode .sky {
