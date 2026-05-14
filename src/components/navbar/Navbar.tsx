@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navbar: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="header">
       <div className="container">
@@ -13,25 +23,29 @@ const Navbar: React.FC = () => {
             <span className="logo-sub">KUMAR</span>
           </div>
         </div>
-        <button className="mobile-menu-toggle" aria-label="Toggle menu">
+        <button 
+          className={`mobile-menu-toggle ${isMenuOpen ? 'active' : ''}`} 
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+        >
           <span />
           <span />
           <span />
         </button>
-        <nav className="nav">
-          <a href="#home" className="nav-link">
+        <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
+          <a href="#home" className="nav-link" onClick={closeMenu}>
             HOME
           </a>
-          <a href="#about" className="nav-link">
+          <a href="#about" className="nav-link" onClick={closeMenu}>
             ABOUT
           </a>
-          <a href="#projects" className="nav-link">
+          <a href="#projects" className="nav-link" onClick={closeMenu}>
             PROJECTS
           </a>
-          <a href="#skills" className="nav-link">
+          <a href="#skills" className="nav-link" onClick={closeMenu}>
             SKILLS
           </a>
-          <a href="#contact" className="nav-link">
+          <a href="#contact" className="nav-link" onClick={closeMenu}>
             CONTACT
           </a>
         </nav>
