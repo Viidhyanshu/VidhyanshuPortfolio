@@ -17,7 +17,7 @@ body {
 }
 
 :root {
-    --primary-blue: #4a90e2;
+    --primary-blue: #ffffff;
     --dark-blue: #1e1e1e;
     --darker-blue: #0a0a0a;
     --night-sky: #000000;
@@ -803,6 +803,7 @@ body.day-mode .mobile-menu-toggle span {
 /* Day Mode Styles */
 body.day-mode {
     background: var(--day-sky-light);
+    --primary-blue: #4a90e2;
 }
 
 body.day-mode .header {
