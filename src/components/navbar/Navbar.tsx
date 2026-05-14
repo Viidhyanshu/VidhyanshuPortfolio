@@ -5,6 +5,9 @@ const Navbar: React.FC = () => {
     <header className="header">
       <div className="container">
         <div className="logo">
+          <div className="logo-icon">
+            <i className="fas fa-microchip" />
+          </div>
           <div className="logo-text">
             <span className="logo-main">VIDHYANSHU</span>
             <span className="logo-sub">KUMAR</span>
