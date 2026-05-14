@@ -6,7 +6,7 @@ const Home: React.FC = () => {
       <div className="hero-content">
         <h1 className="hero-title">Welcome to My Portfolio</h1>
         <p className="hero-subtitle">
-          First Year Student | Developer | Problem Solver
+          Second Year Student | Developer | Problem Solver
         </p>
         <p className="hero-description">Manipal University Jaipur</p>
         <div className="hero-buttons">

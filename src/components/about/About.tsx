@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Hello! I'm <strong>Vidhyanshu Kumar</strong>, a first-year student
+              Hello! I'm <strong>Vidhyanshu Kumar</strong>, a second-year student
               at Manipal University Jaipur with a passion for software development
               and problem-solving.
             </p>
