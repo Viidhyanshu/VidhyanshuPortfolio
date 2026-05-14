@@ -74,7 +74,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    position: relative;
 }
 
 .logo {
@@ -119,11 +119,28 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+    flex: 1;
+    justify-content: flex-end;
 }
 
-.nav-links {
-    display: flex;
-    gap: 25px;
+@media (min-width: 969px) {
+    .nav-links {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 25px;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 969px) and (max-width: 1150px) {
+    .nav-links {
+        position: static;
+        transform: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .nav-link {
