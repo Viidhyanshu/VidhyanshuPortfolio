@@ -205,16 +205,37 @@ body.day-mode .mobile-menu-toggle span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80px;
-    height: 30px;
+    width: 70px;
+    height: 34px;
     background: #ffd700;
-    border-radius: 30px;
-    padding: 5px;
+    border-radius: 34px;
+    padding: 4px;
     cursor: pointer;
     transition: background 0.3s;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     position: relative;
 }
+
+.theme-slider {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: var(--white);
+    border-radius: 50%;
+    transition: transform 0.3s;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.theme-checkbox:checked + .theme-label {
+    background: #ffa500;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.5);
+}
+
+.theme-checkbox:checked + .theme-label .theme-slider {
+    transform: translateX(36px);
+}
+
 
 .theme-icon {
     position: absolute;
@@ -235,25 +256,8 @@ body.day-mode .mobile-menu-toggle span {
     transform: rotate(0deg);
 }
 
-.theme-slider {
-    position: absolute;
-    width: 22px;
-    height: 22px;
-    background: var(--white);
-    border-radius: 50%;
-    transition: transform 0.3s;
-    z-index: 1;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
-}
 
-.theme-checkbox:checked + .theme-label {
-    background: #ffa500;
-    box-shadow: 0 0 15px rgba(255, 165, 0, 0.5);
-}
 
-.theme-checkbox:checked + .theme-label .theme-slider {
-    transform: translateX(48px);
-}
 
 .theme-checkbox:checked + .theme-label .moon-icon {
     opacity: 0;
@@ -1667,19 +1671,8 @@ section {
         order: -1;
     }
 
-    .theme-label {
-        width: 50px;
-        height: 26px;
-    }
 
-    .theme-slider {
-        width: 20px;
-        height: 20px;
-    }
 
-    .theme-checkbox:checked + .theme-label .theme-slider {
-        transform: translateX(24px);
-    }
 
     .theme-icon {
         font-size: 12px;
@@ -1947,19 +1940,8 @@ section {
         font-size: 10px;
     }
 
-    .theme-label {
-        width: 45px;
-        height: 24px;
-    }
 
-    .theme-slider {
-        width: 18px;
-        height: 18px;
-    }
 
-    .theme-checkbox:checked + .theme-label .theme-slider {
-        transform: translateX(21px);
-    }
 
     .social-icon {
         width: 32px;
@@ -2153,19 +2135,8 @@ section {
         font-size: 1.5rem;
     }
 
-    .theme-label {
-        width: 40px;
-        height: 22px;
-    }
 
-    .theme-slider {
-        width: 16px;
-        height: 16px;
-    }
 
-    .theme-checkbox:checked + .theme-label .theme-slider {
-        transform: translateX(18px);
-    }
 
     .social-icon {
         width: 30px;
@@ -2201,10 +2172,6 @@ section {
     .project-card,
     .contact-card,
     .skill-item,
-    .theme-label {
-        -webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);
-        tap-highlight-color: rgba(255, 255, 255, 0.3);
-    }
 
     .btn {
         min-height: 44px;
@@ -2224,10 +2191,6 @@ section {
         min-height: 44px;
     }
 
-    .theme-label {
-        min-width: 60px;
-        min-height: 44px;
-    }
 
     /* Disable hover effects on touch devices */
     .project-card:hover,
