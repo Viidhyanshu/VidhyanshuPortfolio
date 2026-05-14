@@ -8,6 +8,24 @@ const Projects: React.FC = () => {
         <div className="projects-grid">
           <div className="project-card">
             <div className="project-icon">
+              <i className="fas fa-atom" />
+            </div>
+            <h3 className="project-title">Quantum Circuit Visualizer</h3>
+            <p className="project-description">
+              A premium, high-impact tool for building and visualizing quantum circuits 
+              with interactive gate placement and measurement results.
+            </p>
+            <a
+              href="https://github.com/Viidhyanshu/Quantum-Circuit-Visualizer.git"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              <i className="fab fa-github" /> View on GitHub
+            </a>
+          </div>
+          <div className="project-card">
+            <div className="project-icon">
               <i className="fas fa-link" />
             </div>
             <h3 className="project-title">TrustChain Microfinance Grid</h3>
