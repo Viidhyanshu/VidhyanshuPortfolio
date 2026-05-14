@@ -20,7 +20,7 @@ This project is licensed under the MIT License - feel free to use it for your ow
 - GitHub: [@viidhyanshu](https://github.com/viidhyanshu)
 - LinkedIn: [Vidhyanshu Kumar](https://www.linkedin.com/in/viidhyanshu)
 - Email: viidhyasnhu@gmail.com
-- LeetCode: [@viidhyanshu](https://leetcode.com/viidhyashu)
+- LeetCode: [@viidhyanshu](https://leetcode.com/viidhyanshu)
 
 ---
 
