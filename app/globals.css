@@ -81,10 +81,6 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    background: #ffffff;
-    padding: 4px 12px;
-    border-radius: 6px;
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
 
 .logo-icon {
@@ -108,13 +104,13 @@ body {
 .logo-main {
     font-size: 20px;
     font-weight: bold;
-    color: #000000;
+    color: var(--white);
     letter-spacing: 2px;
 }
 
 .logo-sub {
     font-size: 14px;
-    color: #000000;
+    color: var(--white);
     letter-spacing: 1px;
 }
 
@@ -264,8 +260,8 @@ body.day-mode .mobile-menu-toggle span {
 .social-icon {
     width: 40px;
     height: 40px;
-    background: var(--primary-blue);
-    color: var(--white);
+    background: var(--white);
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -829,10 +825,9 @@ body.day-mode .logo-sub {
     color: var(--day-text);
 }
 
-body.day-mode .logo {
-    background: transparent;
-    padding: 0;
-    box-shadow: none;
+body.day-mode .social-icon {
+    background: var(--primary-blue);
+    color: var(--white);
 }
 
 body.day-mode .sky {
