@@ -58,7 +58,7 @@ body {
 
 /* Header */
 .header {
-    background-color: rgba(26, 35, 50, 0.75);
+    background-color: rgba(26, 35, 50, 0.4);
     padding: 12px 0;
     position: sticky;
     top: 0;
@@ -806,7 +806,7 @@ body.day-mode {
 }
 
 body.day-mode .header {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
 }
