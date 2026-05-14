@@ -336,7 +336,7 @@ body.day-mode .mobile-menu-toggle span {
 
 .btn-primary {
     background: var(--primary-blue);
-    color: var(--white);
+    color: #000000;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 }
 
@@ -828,6 +828,10 @@ body.day-mode .logo-sub {
 body.day-mode .social-icon,
 body.day-mode .project-icon {
     background: var(--primary-blue);
+    color: var(--white);
+}
+
+body.day-mode .btn-primary {
     color: var(--white);
 }
 

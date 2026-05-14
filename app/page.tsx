@@ -87,12 +87,12 @@ export default function Home() {
 
       if (window.pageYOffset > 100) {
         header.style.backgroundColor = isDayMode
-          ? 'rgba(255, 255, 255, 0.7)'
-          : 'rgba(10, 10, 10, 0.7)'
+          ? 'rgba(255, 255, 255, 0.3)'
+          : 'rgba(10, 10, 10, 0.3)'
       } else {
         header.style.backgroundColor = isDayMode
-          ? 'rgba(255, 255, 255, 0.4)'
-          : 'rgba(10, 10, 10, 0.4)'
+          ? 'rgba(255, 255, 255, 0.3)'
+          : 'rgba(10, 10, 10, 0.3)'
       }
 
       header.style.backdropFilter = 'blur(15px) saturate(180%)'
