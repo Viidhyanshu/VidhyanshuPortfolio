@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
       <div className="container">
         <div className="logo">
           <div className="logo-icon">
-            <i className="fas fa-microchip" />
+           <i className="fa-brands fa-fulcrum"></i>
           </div>
           <div className="logo-text">
             <span className="logo-main">VIDHYANSHU</span>
@@ -33,53 +33,6 @@ const Navbar: React.FC = () => {
           <span />
         </button>
         <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
-          <div className="nav-extras">
-            <div className="theme-toggle">
-              <input type="checkbox" id="theme-toggle" className="theme-checkbox" />
-              <label htmlFor="theme-toggle" className="theme-label">
-                <i className="fas fa-moon theme-icon moon-icon" />
-                <i className="fas fa-sun theme-icon sun-icon" />
-                <span className="theme-slider" />
-              </label>
-            </div>
-            <div className="social-icons">
-              <a
-                href="https://github.com/viidhyanshu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon"
-                title="GitHub"
-              >
-                <i className="fab fa-github" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/viidhyanshu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon"
-                title="LinkedIn"
-              >
-                <i className="fab fa-linkedin" />
-              </a>
-              <a
-                href="https://leetcode.com/viidhyanshu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon"
-                title="LeetCode"
-              >
-                <i className="fas fa-code" />
-              </a>
-              <a
-                href="mailto:viidhyasnhu@gmail.com"
-                className={`social-icon`}
-                title="Email"
-              >
-                <i className="fas fa-envelope" />
-              </a>
-            </div>
-          </div>
-
           <div className="nav-links">
             <a href="#home" className="nav-link" onClick={closeMenu}>
               HOME
@@ -95,6 +48,52 @@ const Navbar: React.FC = () => {
             </a>
             <a href="#contact" className="nav-link" onClick={closeMenu}>
               CONTACT
+            </a>
+          </div>
+          
+          <div className="theme-toggle">
+            <input type="checkbox" id="theme-toggle" className="theme-checkbox" />
+            <label htmlFor="theme-toggle" className="theme-label">
+              <i className="fas fa-moon theme-icon moon-icon" />
+              <i className="fas fa-sun theme-icon sun-icon" />
+              <span className="theme-slider" />
+            </label>
+          </div>
+
+          <div className="social-icons">
+            <a
+              href="https://github.com/viidhyanshu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+              title="GitHub"
+            >
+              <i className="fab fa-github" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/viidhyanshu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+              title="LinkedIn"
+            >
+              <i className="fab fa-linkedin" />
+            </a>
+            <a
+              href="https://leetcode.com/viidhyanshu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+              title="LeetCode"
+            >
+              <i className="fas fa-code" />
+            </a>
+            <a
+              href="mailto:viidhyasnhu@gmail.com"
+              className={`social-icon`}
+              title="Email"
+            >
+              <i className="fas fa-envelope" />
             </a>
           </div>
         </nav>
