@@ -87,15 +87,15 @@ export default function Home() {
 
       if (window.pageYOffset > 100) {
         header.style.backgroundColor = isDayMode
-          ? 'rgba(135, 206, 235, 0.98)'
-          : 'rgba(26, 35, 50, 0.98)'
+          ? 'rgba(255, 255, 255, 0.85)'
+          : 'rgba(26, 35, 50, 0.85)'
       } else {
         header.style.backgroundColor = isDayMode
-          ? 'rgba(135, 206, 235, 0.95)'
-          : 'rgba(26, 35, 50, 0.95)'
+          ? 'rgba(255, 255, 255, 0.7)'
+          : 'rgba(26, 35, 50, 0.75)'
       }
 
-      header.style.backdropFilter = 'blur(10px)'
+      header.style.backdropFilter = 'blur(15px) saturate(180%)'
     }
 
     window.addEventListener('scroll', updateHeaderBackground)
