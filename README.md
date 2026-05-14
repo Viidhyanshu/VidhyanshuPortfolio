@@ -6,16 +6,6 @@ A modern, responsive portfolio website featuring an immersive day/night theme to
 
 
 
-## ✨ Features
-
-### 🌓 Dynamic Theme System
-- **Night Mode**: Features a starlit sky with constellations (Ursa Major and Orion), a glowing moon with interactive rays, and twinkling stars across the Milky Way
-- **Day Mode**: Transforms into a bright daytime scene with an animated sun, floating clouds, and flying birds
-- Smooth theme transitions with localStorage persistence
-- Interactive celestial bodies with hover effects and radiating light rays
-
-## 🚀 Quick Start
-
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Basic text editor (VS Code, Sublime Text, etc.)
