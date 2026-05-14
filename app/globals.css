@@ -825,7 +825,8 @@ body.day-mode .logo-sub {
     color: var(--day-text);
 }
 
-body.day-mode .social-icon {
+body.day-mode .social-icon,
+body.day-mode .project-icon {
     background: var(--primary-blue);
     color: var(--white);
 }
@@ -1346,13 +1347,13 @@ section {
 .project-icon {
     width: 70px;
     height: 70px;
-    background: var(--primary-blue);
+    background: var(--white);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 20px;
-    color: var(--white);
+    color: #000000;
     font-size: 30px;
 }
 
