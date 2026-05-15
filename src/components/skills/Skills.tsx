@@ -2,7 +2,7 @@ import React from 'react';
 import { 
   SiHtml5, SiJavascript, SiNextdotjs, SiReact, SiTypescript,
   SiNodedotjs, SiExpress, SiSpringboot, SiMysql, SiPostgresql, SiMongodb,
-  SiCplusplus, SiC, SiPython,
+  SiCplusplus, SiC, SiPython, SiGo,
   SiGithub, SiBlender, SiFigma, SiLinux, SiDocker
 } from 'react-icons/si';
 import { FaCss3Alt, FaJava } from 'react-icons/fa';
@@ -92,6 +92,10 @@ const Skills: React.FC = () => {
               <div className="skill-item">
                 <SiPython />
                 <span>Python</span>
+              </div>
+              <div className="skill-item">
+                <SiGo />
+                <span>Go</span>
               </div>
             </div>
           </div>
