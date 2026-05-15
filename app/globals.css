@@ -1479,6 +1479,12 @@ section {
     width: 35px;
     height: 35px;
     color: var(--primary-blue);
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover i, .skill-item:hover svg {
+    color: var(--brand-color, var(--primary-blue));
+    filter: drop-shadow(0 0 10px var(--brand-color, rgba(0, 183, 255, 0.5)));
 }
 
 .skill-item span {
