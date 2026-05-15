@@ -10,16 +10,24 @@ const Skills: React.FC = () => {
             <h3 className="category-title">Frontend</h3>
             <div className="skills-grid">
               <div className="skill-item">
+                <i className="fab fa-html5" />
+                <span>HTML</span>
+              </div>
+              <div className="skill-item">
+                <i className="fab fa-css3-alt" />
+                <span>CSS</span>
+              </div>
+              <div className="skill-item">
+                <i className="fab fa-js" />
+                <span>JavaScript</span>
+              </div>
+              <div className="skill-item">
                 <i className="fab fa-react" />
                 <span>Next.js</span>
               </div>
               <div className="skill-item">
                 <i className="fab fa-react" />
                 <span>React</span>
-              </div>
-              <div className="skill-item">
-                <i className="fas fa-wind" />
-                <span>Tailwind</span>
               </div>
               <div className="skill-item">
                 <i className="fas fa-code" />
@@ -43,9 +51,13 @@ const Skills: React.FC = () => {
                 <i className="fas fa-leaf" />
                 <span>SpringBoot</span>
               </div>
-               <div className="skill-item">
+              <div className="skill-item">
                 <i className="fas fa-database" />
-                <span>MongoDB</span>
+                <span>MySQL</span>
+              </div>
+              <div className="skill-item">
+                <i className="fas fa-database" />
+                <span>PostgreSQL</span>
               </div>
             </div>
           </div>
@@ -90,6 +102,14 @@ const Skills: React.FC = () => {
               <div className="skill-item">
                 <i className="fab fa-figma" />
                 <span>Figma</span>
+              </div>
+              <div className="skill-item">
+                <i className="fab fa-linux" />
+                <span>Linux</span>
+              </div>
+              <div className="skill-item">
+                <i className="fab fa-docker" />
+                <span>Docker</span>
               </div>
             </div>
           </div>
