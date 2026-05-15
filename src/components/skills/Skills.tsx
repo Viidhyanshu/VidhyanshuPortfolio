@@ -1,4 +1,10 @@
 import React from 'react';
+import { 
+  SiHtml5, SiCss3, SiJavascript, SiNextdotjs, SiReact, SiTypescript,
+  SiNodedotjs, SiExpress, SiSpringboot, SiMysql, SiPostgresql, SiMongodb,
+  SiCplusplus, SiC, SiJava, SiPython,
+  SiGithub, SiBlender, SiVisualstudiocode, SiFigma, SiLinux, SiDocker
+} from 'react-icons/si';
 
 const Skills: React.FC = () => {
   return (
@@ -10,27 +16,27 @@ const Skills: React.FC = () => {
             <h3 className="category-title">Frontend</h3>
             <div className="skills-grid">
               <div className="skill-item">
-                <i className="fab fa-html5" />
+                <SiHtml5 />
                 <span>HTML</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-css3-alt" />
+                <SiCss3 />
                 <span>CSS</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-js" />
+                <SiJavascript />
                 <span>JavaScript</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-react" />
+                <SiNextdotjs />
                 <span>Next.js</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-react" />
+                <SiReact />
                 <span>React</span>
               </div>
               <div className="skill-item">
-                <i className="fas fa-code" />
+                <SiTypescript />
                 <span>TypeScript</span>
               </div>
             </div>
@@ -40,24 +46,28 @@ const Skills: React.FC = () => {
             <h3 className="category-title">Backend</h3>
             <div className="skills-grid">
               <div className="skill-item">
-                <i className="fab fa-node-js" />
+                <SiNodedotjs />
                 <span>Node.js</span>
               </div>
               <div className="skill-item">
-                <i className="fas fa-server" />
+                <SiExpress />
                 <span>Express.js</span>
               </div>
               <div className="skill-item">
-                <i className="fas fa-leaf" />
+                <SiSpringboot />
                 <span>SpringBoot</span>
               </div>
               <div className="skill-item">
-                <i className="fas fa-database" />
+                <SiMysql />
                 <span>MySQL</span>
               </div>
               <div className="skill-item">
-                <i className="fas fa-database" />
+                <SiPostgresql />
                 <span>PostgreSQL</span>
+              </div>
+              <div className="skill-item">
+                <SiMongodb />
+                <span>MongoDB</span>
               </div>
             </div>
           </div>
@@ -66,19 +76,19 @@ const Skills: React.FC = () => {
             <h3 className="category-title">Languages</h3>
             <div className="skills-grid">
               <div className="skill-item">
-                <i className="fas fa-code" />
+                <SiCplusplus />
                 <span>C++</span>
               </div>
               <div className="skill-item">
-                <i className="fas fa-code" />
+                <SiC />
                 <span>C</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-java" />
+                <SiJava />
                 <span>Java</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-python" />
+                <SiPython />
                 <span>Python</span>
               </div>
             </div>
@@ -88,27 +98,27 @@ const Skills: React.FC = () => {
             <h3 className="category-title">Tools</h3>
             <div className="skills-grid">
               <div className="skill-item">
-                <i className="fab fa-github" />
+                <SiGithub />
                 <span>Github</span>
               </div>
               <div className="skill-item">
-                <i className="fas fa-cube" />
+                <SiBlender />
                 <span>Blender</span>
               </div>
               <div className="skill-item">
-                <i className="fas fa-laptop-code" />
+                <SiVisualstudiocode />
                 <span>VS Code</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-figma" />
+                <SiFigma />
                 <span>Figma</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-linux" />
+                <SiLinux />
                 <span>Linux</span>
               </div>
               <div className="skill-item">
-                <i className="fab fa-docker" />
+                <SiDocker />
                 <span>Docker</span>
               </div>
             </div>
