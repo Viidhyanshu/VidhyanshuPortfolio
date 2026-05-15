@@ -1,3 +1,4 @@
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -11,11 +12,18 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Vidhyanshu Kumar",
-  description: "Portfolio of Vidhyanshu Kumar - First Year Student at Manipal University Jaipur | Developer | Problem Solver",
+  description:
+    "Portfolio of Vidhyanshu Kumar - First Year Student at Manipal University Jaipur | Developer | Problem Solver",
+};
+
+export const viewport: Viewport = {
   themeColor: "#1a2332",
-  viewport: "width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
 };
 
 export default function RootLayout({
@@ -31,6 +39,7 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         />
       </head>
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
