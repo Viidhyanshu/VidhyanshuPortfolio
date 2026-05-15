@@ -1,10 +1,12 @@
 import React from 'react';
 import { 
-  SiHtml5, SiCss3, SiJavascript, SiNextdotjs, SiReact, SiTypescript,
+  SiHtml5, SiJavascript, SiNextdotjs, SiReact, SiTypescript,
   SiNodedotjs, SiExpress, SiSpringboot, SiMysql, SiPostgresql, SiMongodb,
-  SiCplusplus, SiC, SiJava, SiPython,
-  SiGithub, SiBlender, SiVisualstudiocode, SiFigma, SiLinux, SiDocker
+  SiCplusplus, SiC, SiPython,
+  SiGithub, SiBlender, SiFigma, SiLinux, SiDocker
 } from 'react-icons/si';
+import { FaCss3Alt, FaJava } from 'react-icons/fa';
+import { VscCode } from 'react-icons/vsc';
 
 const Skills: React.FC = () => {
   return (
@@ -20,7 +22,7 @@ const Skills: React.FC = () => {
                 <span>HTML</span>
               </div>
               <div className="skill-item">
-                <SiCss3 />
+                <FaCss3Alt />
                 <span>CSS</span>
               </div>
               <div className="skill-item">
@@ -84,7 +86,7 @@ const Skills: React.FC = () => {
                 <span>C</span>
               </div>
               <div className="skill-item">
-                <SiJava />
+                <FaJava />
                 <span>Java</span>
               </div>
               <div className="skill-item">
@@ -106,7 +108,7 @@ const Skills: React.FC = () => {
                 <span>Blender</span>
               </div>
               <div className="skill-item">
-                <SiVisualstudiocode />
+                <VscCode />
                 <span>VS Code</span>
               </div>
               <div className="skill-item">
