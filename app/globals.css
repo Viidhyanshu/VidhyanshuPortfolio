@@ -1474,8 +1474,10 @@ section {
     border-color: var(--primary-blue);
 }
 
-.skill-item i {
-    font-size: 40px;
+.skill-item i, .skill-item svg {
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
     color: var(--primary-blue);
 }
 
@@ -1864,8 +1866,10 @@ section {
         padding: 15px;
     }
 
-    .skill-item i {
-        font-size: 32px;
+    .skill-item i, .skill-item svg {
+        font-size: 48px;
+        width: 48px;
+        height: 48px;
     }
 
     .skill-item span {
@@ -2077,8 +2081,10 @@ section {
         padding: 12px;
     }
 
-    .skill-item i {
-        font-size: 28px;
+    .skill-item i, .skill-item svg {
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
     }
 
     .skill-item span {
