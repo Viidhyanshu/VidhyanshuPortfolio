@@ -107,14 +107,6 @@ const Navbar: React.FC = () => {
 
           <div className="menu-bottom-section">
             <p className="welcome-text">Welcome to My Portfolio</p>
-            <div className="action-buttons">
-              <a href="#projects" className="btn-mobile-action" onClick={closeMenu}>
-                VIEW PROJECTS
-              </a>
-              <a href="#contact" className="btn-mobile-action" onClick={closeMenu}>
-                GET IN TOUCH
-              </a>
-            </div>
           </div>
         </nav>
       </div>
