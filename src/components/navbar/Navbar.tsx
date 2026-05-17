@@ -33,33 +33,6 @@ const Navbar: React.FC = () => {
           <span />
         </button>
         <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
-          <div className="nav-links">
-            <a href="#home" className="nav-link" onClick={closeMenu}>
-              HOME
-            </a>
-            <a href="#about" className="nav-link" onClick={closeMenu}>
-              ABOUT
-            </a>
-            <a href="#projects" className="nav-link" onClick={closeMenu}>
-              PROJECTS
-            </a>
-            <a href="#skills" className="nav-link" onClick={closeMenu}>
-              SKILLS
-            </a>
-            <a href="#contact" className="nav-link" onClick={closeMenu}>
-              CONTACT
-            </a>
-          </div>
-          
-          <div className="theme-toggle">
-            <input type="checkbox" id="theme-toggle" className="theme-checkbox" />
-            <label htmlFor="theme-toggle" className="theme-label">
-              <i className="fas fa-moon theme-icon moon-icon" />
-              <i className="fas fa-sun theme-icon sun-icon" />
-              <span className="theme-slider" />
-            </label>
-          </div>
-
           <div className="social-icons">
             <a
               href="https://github.com/viidhyanshu"
@@ -90,11 +63,58 @@ const Navbar: React.FC = () => {
             </a>
             <a
               href="mailto:viidhyasnhu@gmail.com"
-              className={`social-icon`}
+              className="social-icon"
               title="Email"
             >
               <i className="fas fa-envelope" />
             </a>
+          </div>
+
+          <div className="menu-middle-section">
+            <div className="nav-links">
+              <a href="#home" className="nav-link" onClick={closeMenu}>
+                HOME
+              </a>
+              <a href="#about" className="nav-link" onClick={closeMenu}>
+                ABOUT
+              </a>
+              <a href="#projects" className="nav-link" onClick={closeMenu}>
+                PROJECTS
+              </a>
+              <a href="#skills" className="nav-link" onClick={closeMenu}>
+                SKILLS
+              </a>
+              <a href="#contact" className="nav-link" onClick={closeMenu}>
+                CONTACT
+              </a>
+            </div>
+
+            <div className="vertical-divider" />
+
+            <div className="theme-toggle-wrapper">
+              <span className="theme-label-text dark">Dark Mode</span>
+              <div className="theme-toggle">
+                <input type="checkbox" id="theme-toggle" className="theme-checkbox" />
+                <label htmlFor="theme-toggle" className="theme-label">
+                  <i className="fas fa-moon theme-icon moon-icon" />
+                  <i className="fas fa-sun theme-icon sun-icon" />
+                  <span className="theme-slider" />
+                </label>
+              </div>
+              <span className="theme-label-text light">Light Mode</span>
+            </div>
+          </div>
+
+          <div className="menu-bottom-section">
+            <p className="welcome-text">Welcome to My Portfolio</p>
+            <div className="action-buttons">
+              <a href="#projects" className="btn-mobile-action" onClick={closeMenu}>
+                VIEW PROJECTS
+              </a>
+              <a href="#contact" className="btn-mobile-action" onClick={closeMenu}>
+                GET IN TOUCH
+              </a>
+            </div>
           </div>
         </nav>
       </div>
